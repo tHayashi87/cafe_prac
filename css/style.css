@@ -25,7 +25,7 @@ img {
 
 /* 共通幅設定 */
 .wrapper {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -165,7 +165,7 @@ img {
 
 /* 1カラム目 */
 article {
-    width: 72%;
+    width: 50%;
 }
 
 article img {
@@ -178,7 +178,7 @@ article p {
 
 /* ２カラム目 */
 aside {
-    width: 24%;
+    width: 20%;
 }
 
 aside .sub-title {
@@ -216,6 +216,11 @@ aside .sub-menu a:hover {
     position: relative;
     padding-top: 4px;
     margin-bottom: 40px;
+}
+
+/* 3カラム目 */
+.ad {
+
 }
 
 /* 日付表示 */
@@ -279,6 +284,11 @@ footer p {
 
 @media (max-width: 599px) {
 
+    /* 共通幅設定 */
+    .wrapper {
+        padding: 0 4%;
+    }
+
     /* index.html */
     .page-title {
         font-size: 2.5rem;
@@ -330,7 +340,7 @@ footer p {
         height: 70px;
         font-size: 1rem;
         padding-top: 5px;
-        left: 5%;
+        left: 2%;
     }
     .news-date span {
         font-size: 0.675rem;
@@ -345,9 +355,12 @@ footer p {
     }
     .news-title,
     .news-cat {
-        margin-left: 120px;
+        margin-left: 90px;
     }
 
+    .ad {
+        display: none;
+    }
 }
 
 
