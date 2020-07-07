@@ -278,9 +278,76 @@ footer p {
 /* ーーーーーーーーーーーーーーーーー */
 
 @media (max-width: 599px) {
-    h1 {
-        color: aqua;
+
+    /* index.html */
+    .page-title {
+        font-size: 2.5rem;
     }
+
+    /* ヘッダー */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        margin: 0 20px;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Home */
+    .logo {
+        width: 320px;
+        margin-top: 24px;
+    }
+    .home-content {
+        margin-top: 20%;
+    }
+
+    /* News */
+    .news-contents {
+        flex-direction: column;
+    }
+    article,
+    aside {
+        width: 100%;
+    }
+
+    #news .page-title {
+        margin-top: 8px;
+        font-size: 4rem;
+    }
+    aside {
+        margin-top: 60px;
+    }
+    .news-info{
+        margin-bottom: 20px;
+    }
+    .news-date {
+        width: 70px;
+        height: 70px;
+        font-size: 1rem;
+        padding-top: 5px;
+        left: 5%;
+    }
+    .news-date span {
+        font-size: 0.675rem;
+        padding-top: 1px;
+    }
+    .news-title {
+        font-size: 1.625rem;
+    }
+    .news-cat {
+        font-size: 0.875rem;
+        margin-top: 8px;
+    }
+    .news-title,
+    .news-cat {
+        margin-left: 120px;
+    }
+
 }
 
 
